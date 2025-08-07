@@ -1,33 +1,39 @@
-🌍 Wanderlust - Airbnb clone website
-Wanderlust is a full-stack Node.js web application that allows users to discover, create, and review campground listings around the world. Inspired by platforms like Airbnb, Wanderlust focuses on simplicity and accessibility, offering interactive maps, user authentication, image uploads, and dynamic search features.
+🌍 Wanderlust — Airbnb Clone Website
+A full-stack Node.js web application that allows users to discover, create, and review campground listings around the world. Inspired by platforms like Airbnb, Wanderlust emphasizes simplicity, clean UI, and map-based exploration.
 
-✅ Live Demo: https://wanderlust-b5yn.onrender.com/listings
+🔗 Live Demo: wanderlust-b5yn.onrender.com
 
 ✨ Features
-🏕 Campground Listings: Users can create, edit, and delete their own campgrounds, including location, description, and images.
+🏕 Campground Listings
+Users can create, edit, and delete their own campgrounds with location, description, and images.
 
-📝 Reviews: Authenticated users can leave reviews and ratings for any campground.
+📝 Reviews
+Authenticated users can leave reviews and ratings for any campground.
 
-🗺 Interactive Maps: Campgrounds are displayed on an interactive Leaflet map with location pins generated via Nominatim geocoding.
+🗺 Interactive Maps
+Campgrounds are shown on a Leaflet.js map with pins generated via Nominatim geocoding.
 
-📷 Image Uploads: Images are uploaded and hosted securely using Cloudinary.
+📷 Image Uploads
+Users can upload images, which are securely stored and served via Cloudinary.
 
-🔒 Authentication & Authorization: User accounts with secure login, registration, and permissions (e.g., only authors can edit their listings).
+🔒 Authentication & Authorization
+Includes secure login, registration, and role-based access control. Only listing authors can edit/delete their content.
 
-🎨 Responsive Design: Styled with Bootstrap for clean and mobile-friendly layouts.
+🎨 Responsive Design
+Mobile-friendly layout styled with Bootstrap 5 and custom CSS.
 
 🚀 Tech Stack
 Backend: Node.js, Express.js
 
-Database: MongoDB with Mongoose ODM
+Database: MongoDB (with Mongoose ODM)
 
-Templating: EJS (Embedded JavaScript Templates)
+Templating Engine: EJS (Embedded JavaScript Templates)
 
-Styling: Bootstrap 5, custom CSS
+Styling: Bootstrap 5, Custom CSS
 
-Maps & Geocoding: Leaflet.js and Nominatim API
+Maps & Geocoding: Leaflet.js, Nominatim API
 
-File Uploads: Multer middleware + Cloudinary storage
+File Uploads: Multer middleware + Cloudinary
 
 Authentication: Passport.js
 
@@ -36,22 +42,22 @@ Deployment: Render
 🌱 What I Learned
 Integrating third-party services like Cloudinary and Nominatim
 
-Using Leaflet for interactive mapping without paid APIs
+Using Leaflet as an alternative to paid APIs like Mapbox
 
-Managing environment variables securely
+Securing app credentials with environment variables
 
-Implementing authentication with Passport
+Implementing robust authentication and authorization
 
-Deploying a Node.js app to Render
+Deploying full-stack applications using Render
 
 🔮 Future Improvements
-Location search autocomplete
+🔍 Location search autocomplete
 
-Pagination for listings and reviews
+📄 Pagination for listings and reviews
 
-AJAX-based review submissions
+⚡ AJAX-based review submissions for smoother UX
 
-Image galleries with multiple uploads
+🖼 Image galleries with drag-and-drop multi-upload
 
-Rate limiting and enhanced error handling
+🛡️ Rate limiting and better error handling/security
 
